@@ -1,0 +1,36 @@
+{
+  "name": "nku-cbod-viewer",
+  "version": "1.0.0",
+  "description": "Let's NKU Students view eating habits.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "create-key": "npx fastify-secure-session > secret-key"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmuscara/nku-cbod-viewer.git"
+  },
+  "keywords": [],
+  "author": "Kevin Muscara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinmuscara/nku-cbod-viewer/issues"
+  },
+  "homepage": "https://github.com/kevinmuscara/nku-cbod-viewer#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ejs": "^3.1.8",
+    "fast-csv": "^4.3.6",
+    "fastify": "^3.28.0",
+    "fastify-formbody": "^5.2.0",
+    "fastify-multer": "^2.0.3",
+    "fastify-multipart": "^5.4.0",
+    "fastify-secure-session": "^3.1.0",
+    "fastify-static": "^4.6.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdf2json": "^2.0.1",
+    "point-of-view": "^5.2.0"
+  }
+}
